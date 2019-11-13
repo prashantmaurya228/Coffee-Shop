@@ -1,0 +1,87 @@
+html{
+	font-size: 62.5%;
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	width: 100%;
+	background-image: url("images/background10.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Caveat', cursive;
+}
+/*nav bar css start*/
+#header{
+	width: 100%;
+}
+
+#logo img{
+	width: 13rem;
+	height: 15rem;
+}
+
+span{
+	  font-family: 'Caveat', cursive; 
+	  font-size: 4.4rem;
+}
+
+
+#nav-bar{
+	height: 10rem;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #d7d7d799;
+}
+
+#logo{
+	display: flex;
+	align-items: center;
+
+}
+
+
+
+#nav-bar-links ul {
+	list-style: none;
+	display: flex;
+	font-family: 'Work Sans', sans-serif;
+	letter-spacing: -0.1rem;
+	word-spacing: -0.3rem;
+}
+
+#nav-bar-links ul a{
+	overflow: hidden;
+	text-decoration: none;
+	padding: 1.5rem;
+}
+
+.links{
+	font-size: 2.7rem;
+	color: black;
+	transition: color .3s;
+}
+
+
+a:hover {
+	color: white;
+}
+
+#main img{
+	width: 20rem;
+	height: 20rem;
+	transform: scale(1.1);
+	transition: transform .2s;
+	margin: 3rem;
+}
+
+#main img:hover {
+	transform: scale(1);
+}
